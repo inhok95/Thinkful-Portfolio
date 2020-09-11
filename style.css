@@ -1,0 +1,95 @@
+/* Header and Body Text Center
+header, article, footer{
+  text-align: center;
+}
+*/
+
+/* Font alignment*/
+h1, h2, h3, h4{
+  font-family: serif;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: fantasy;
+
+}
+/* font sizes for each heading */
+h1{
+  font-size: 60px; 
+}
+
+h2{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 35px;
+}
+h4{
+  font-size: 30px;
+}
+
+/* Font for paragraphs and lists*/
+p, li{
+  line-height: 25px;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 25px
+  
+}
+
+/* Header Color and border*/
+header{
+  background-color: #F0F465;
+  color: #533A71;
+  padding: 10px ;
+}
+
+/*footer container*/
+footer{
+  background-color: #F0F465;
+  color: #533A71;
+  padding: 15px;
+  margin-top: 0px;
+  
+}
+
+/* Article background and font color*/
+article{
+  background-color: #FDF0D5;
+  color: #d1495b;
+  padding: 40px;
+  margin-bottom: 0px;
+}
+
+
+
+/* Adjusting Image and position*/
+img{
+  width: 50px;
+  border-radius: 50px;
+  padding: 20px
+}
+
+/* class center an image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* adjusting the border */
+hr{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Link interactions (pseudo class*/
+a:link {color: #98CE00;}
+a:visited { color: #313638;   }
+a:hover   { color:#17A398; }
+a:active  { color: #51BBFE;  }
+
+* {
+  box-sizing: border-box;
+}
